@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Martel:wght@200;300;400;600;700;800&family=Montserrat:wght@300;400;500&family=Poppins:wght@200;300;400;500&family=Source+Code+Pro:wght@200;300;400;500;600&display=swap");
+html {
+  box-sizing: border-box;
+}
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+}
+.box-container {
+  display: grid;
+  @media screen and (min-width: 992px) {
+    grid-template-columns: repeat(3, minmax(270px, 1fr));
+  }
+  @media screen and (max-width: 992px) {
+    grid-template-columns: repeat(2, minmax(270px, 1fr));
+  }
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(270px, 1fr));
+  }
+  gap: 15px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #302f2f;
+}
