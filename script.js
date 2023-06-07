@@ -116,8 +116,12 @@ const init = () => {
             <p class="my-2 fs-6 fw-normal">Car Side: ${country.car.side}</p>
             <p class="my-2 fs-6 fw-normal">Car Signs: ${country.car.signs}</p>
             <p class="my-2 fs-6 fw-normal">Region: ${country.region}</p>
-            <p class="my-2 fs-6 fw-normal">Subregion: ${country.subregion}</p>
-            
+            <p class="my-2 fs-6 fw-normal">cca2: ${country.cca2}</p>
+            <p class="my-2 fs-6 fw-normal">cca3: ${country.cca3}</p>
+            <p class="my-2 fs-6 fw-normal">ccn3: ${country.ccn3}</p>
+            <p class="my-2 fs-6 fw-normal">cioc: ${country.cioc}</p>
+            <p class="my-2 fs-6 fw-normal">tld: ${country.tld}</p>
+            <p class="my-2 fs-6 fw-normal">un Member: ${country.unMember}</p>
           </div>
           <div class="modal-footer">
             <button
